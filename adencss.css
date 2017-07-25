@@ -51,8 +51,8 @@ margin-left:500px;
 #piclist ul{
 	display:block;
 	list-style:none;
-	margin-left:-150px;
-	margin-top:200px;
+	margin-left:-280px;
+	margin-top:135px;
 	margin-bottom:-115px;
 	
 }
@@ -66,12 +66,11 @@ margin-left:500px;
 
 #standardstext{
 		width:200px;
-		height:144px;
+		height:150px;
 		padding:10px 10px 10px 10px;
 		background: url(images/textbg.jpg) center;
 		margin-left:0px;
 		border: 3px solid #fff;
-		margin-left:-600px;
 }
 
 
@@ -130,17 +129,17 @@ margin-left:500px;
 
 #homeblurb{
 	margin-left:0px;
+	margin-top:-5px;
 	text-align:left;
 	border-bottom:1px solid #ffffff;
 	font-family:"Arial";
 }
 
-#hometext{
-
-
-}
 #homeblurb img{
 	margin-left:400px;
+	position:relative;
+	top:5px;
+	
 }
 
 #hometext{
@@ -149,7 +148,7 @@ margin-left:500px;
 	padding-left:5px;
 	margin-bottom:0px;
 	margin-left:0px;
-	margin-top:-198px;
+	margin-top:-215px;
 	margin-bottom:0px;
 	background: url(images/textbg.jpg) no-repeat;
 	border-right: 3px solid #fff;
@@ -184,41 +183,50 @@ footer p{
 
 #priceMenu ul{
 	list-style:none;
-	margin-left:0px;
+	margin:0px;
 	padding:0px;
 }
 
 #priceMenu ul li{
 	display:inline;
 	float:left;
-	height:10px;
-	width:100px;
-	padding-right:100px;
-
 }
 
 #priceMenu ul li{
-	padding-right:50px
+	margin-right:50px;
 	font-family:"Arial";
 }
 
+#priceMenu li:hover ul{
+	margin-left:0px;
+	display:block;
+	margin-right:-1000px;
+}
 
 #priceMenu li ul{
-	margin-left:20px;
+	margin:0px;
 	padding:0px;
 	display:none;
 }
 
 #pricepane{
-	height:300px;
+	height:325px;
 	width:550px;
-	margin-top:50px;
-	margin-left:100px;
+	margin-left:150px;
 	border: 5px solid #fff;
 	padding-left:5px;
 	padding-right:5px;
 	z-index:1;
 	background: url(images/paneback.jpg) no-repeat;
+}
+
+#pricepannetext{
+	float: left;
+}
+
+#specialpackage{
+	float: right;
+	width: 300px;
 }
 
 #primerPic{
@@ -235,7 +243,6 @@ footer p{
 #testpane{
 	height:300px;
 	width:550px;
-		margin-top:50px;
 	margin-left:-140px;
 	border: 5px solid #fff;
 	padding-left:5px;
@@ -246,7 +253,6 @@ footer p{
 #passpluspane{
 	height:300px;
 	width:550px;
-		margin-top:50px;
 	margin-left:-380px;
 	border: 5px solid #fff;
 	padding-left:5px;
@@ -260,12 +266,6 @@ footer p{
 	width:400px;
 }
 
-
-#priceMenu li:hover ul{
-	margin-left:0px;
-	display:block;
-	margin-right:-1000px;
-}
 #priceblurb{
 	background: url(images/textbg.jpg) no-repeat center;
 	height:130px;
@@ -274,7 +274,7 @@ footer p{
 }
 
 #menuback{
-	width:100%;
+	width:60%;
 	height:25px;
 	background:#99ccff;
 	padding:3px;
