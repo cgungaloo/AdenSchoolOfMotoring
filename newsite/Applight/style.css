@@ -116,7 +116,6 @@ h6 {
 	pointer-events: auto;
 }
 .banner::before {
-	content: "";
 	display: block;
 	position: absolute;
 	left: 0;
@@ -541,7 +540,7 @@ input {
 	color: #242424;
 	font-size: 13px;
 	text-align: center;
-	padding:80px 0px;
+	padding:0px 0px;
 }
 /* .footer-copy p {
 	margin-bottom:
@@ -559,7 +558,7 @@ input {
 }
 
 .banner-item-group-footer a{
-	font-size: 30px;
+	font-size: 20px;
 	margin-top: 100px;
 }
 
@@ -579,7 +578,7 @@ input {
 
 .banner-text {
 	padding-top: 10%;
-	width:450px;
+	width:350px;
 }
 
 .banner-text h2{
@@ -587,8 +586,8 @@ input {
 }
 
 .clock-img{
-	height: auto;
-	width: 50%;
+	height: 60px;
+	/*width: 60%;*/
 	margin: auto;
 
 }
@@ -603,12 +602,12 @@ input {
 	margin-top: 10px;
 }
 .banner-item-group a{
-	font-size: 30px;
-	margin-left: -110px;
+	font-size: 20px;
+	margin-left: -90px;
 }
 
-.col-md-5{
-	width:50%;
+.col-md-5 img{
+	width:100px;
 }
 .logo-1{
 	height: 100px;
