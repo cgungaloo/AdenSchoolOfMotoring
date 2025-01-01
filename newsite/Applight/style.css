@@ -113,6 +113,7 @@ h6 {
 	background: linear-gradient(to left, #1E90FF, #191970);
 	padding:100px 0px;
 	position:relative;
+	pointer-events: auto;
 }
 .banner::before {
 	content: "";
@@ -123,6 +124,7 @@ h6 {
 	width: 100%;
 	height: 100%;
 	background: url(images/pattern.png);
+	pointer-events: auto;
 }
 .banner a.weblink {
 	color:#ffffff;
@@ -205,8 +207,6 @@ h6 {
 	font-size: 20px;
 	margin-left: -10%;
 }
-
-
 
 .clock-img{
 	max-width: 110%;
@@ -292,19 +292,7 @@ h6 {
 	font-weight: 600;
 	font-size: 38px;
 }
-.video-section i {
-	display: block;
-	position: relative;
-	width: 70px;
-	height: 70px;
-	border-radius: 100px;
-	background: #ffffff;
-	color: #8e1efc;
-	font-size: 30px;
-	line-height: 70px;
-	margin: 0 auto;
-	cursor:pointer;
-}
+
 .video-popup {
 	position: fixed;
 	top: 0;
@@ -500,7 +488,7 @@ input {
 	border: 0;
 	background: #7a60ff;
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
-	cursor:pointer;
+	/* cursor:pointer; */
 }
 .contact-info {
 	padding: 2rem 2rem 1rem;
@@ -591,24 +579,32 @@ input {
 
 .banner-text {
 	padding-top: 10%;
+	width:450px;
+}
+
+.banner-text h2{
+	text-align: center;
 }
 
 .clock-img{
-	visibility: hidden;
+	height: auto;
+	width: 50%;
+	margin: auto;
+
 }
 
 .banner-img {
-	width:30px;
+	width:50px;
 	height:200px;
+	margin:25px;
 }
 .banner-item-group p{
-	padding-top: 10%;;
-	font-size: 15px;
+	font-size: 20px;
+	margin-top: 10px;
 }
 .banner-item-group a{
-	padding-top: 20%;;
-	font-size: 15px;
-	width:50%;
+	font-size: 30px;
+	margin-left: -110px;
 }
 
 .col-md-5{
@@ -617,6 +613,7 @@ input {
 .logo-1{
 	height: 100px;
 	width: 300px;
+	padding-left: 10px;
 }
 
 .nav-scroll .navbar-collapse {
@@ -639,6 +636,11 @@ input {
 /* .banner-item-group a{
 	margin-left: -50px;
 } */
+
+.banner-img-group{
+	margin-left: auto;
+	width:100%;
+}
 .banner-text {
 	padding-right: 0px;
 	margin: 10px 0px 0px;
